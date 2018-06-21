@@ -10,5 +10,12 @@ namespace WindowsFormsApp3.Model
     {
         public int Id { get; set; }
         public string Name { get; set; }
+        public int[] Student_id = new int[0];
+        public int[] Teacher_id = new int[0];
+        public Class(int [] _a)
+        {
+            Student_id = _a;
+            Teacher_id = _a;
+        }
     }
 }

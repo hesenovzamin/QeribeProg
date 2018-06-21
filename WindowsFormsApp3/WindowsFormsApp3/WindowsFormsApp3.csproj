@@ -47,6 +47,12 @@
   <ItemGroup>
     <Compile Include="Controller\ClassList.cs" />
     <Compile Include="Controller\TeacherList.cs" />
+    <Compile Include="View\Add.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Add.Designer.cs">
+      <DependentUpon>Add.cs</DependentUpon>
+    </Compile>
     <Compile Include="View\AdminProfil.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -65,6 +71,12 @@
     <Compile Include="Model\Teacher.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="View\Add.resx">
+      <DependentUpon>Add.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\AdminProfil.resx">
+      <DependentUpon>AdminProfil.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="View\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>

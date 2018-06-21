@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using WindowsFormsApp3.Controller;
 
 namespace WindowsFormsApp3.Model
 {
@@ -11,14 +12,10 @@ namespace WindowsFormsApp3.Model
         public int Id { get; set; }
         public string Name { get; set; }
         public string Surname { get; set; }
-        public int Username { get; set; }
+        public string Username { get; set; }
         public int Age { get; set; }
-        public int Password { get; set; }
+        public string Password { get; set; }
         public int Teacher_Id { get; set; }
         public int Class_Id { get; set; }     
-        public override string ToString()
-        {
-            return this.Id+ this.Name + " " + this.Surname + " " + this.Age + " " + this.Password + " " + this.Teacher_Id + " " + this.Class_Id;
-        }
     }
 }

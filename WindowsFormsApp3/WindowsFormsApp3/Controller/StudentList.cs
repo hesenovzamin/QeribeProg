@@ -8,7 +8,7 @@ using WindowsFormsApp3.Model;
 
 namespace WindowsFormsApp3.Controller
 {
-    class StudentList
+    class StudentList:IEnumerable
     {
         Student[] List = new Student[0];
         int Count = 0;
@@ -19,6 +19,7 @@ namespace WindowsFormsApp3.Controller
                 Resize();
             }
             List[Count] = _student;
+            Count++;
         }
         public void Resize()
         {

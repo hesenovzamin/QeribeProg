@@ -8,7 +8,7 @@ using WindowsFormsApp3.Model;
 
 namespace WindowsFormsApp3.Controller
 {
-    class TeacherList
+    class TeacherList: IEnumerable
     {
         Teacher[] List = new Teacher[0];
         int Count = 0;
