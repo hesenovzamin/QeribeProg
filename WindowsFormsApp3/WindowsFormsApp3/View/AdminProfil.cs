@@ -24,8 +24,16 @@ namespace WindowsFormsApp3
             Addtype = 0;
             var add = new Add();
             var AdminProfil = new AdminProfil();
+            add.Show();        
+            AdminProfil.Hide();
+        }
+
+        private void ADDTEACHER_Click(object sender, EventArgs e)
+        {
+            Addtype = 1;
+            var add = new Add();
+            var AdminProfil = new AdminProfil();
             add.Show();
-           
             AdminProfil.Hide();
         }
     }

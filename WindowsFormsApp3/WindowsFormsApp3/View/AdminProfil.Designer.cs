@@ -55,6 +55,7 @@
             this.ADDTEACHER.TabIndex = 1;
             this.ADDTEACHER.Text = "ADDTEACHER";
             this.ADDTEACHER.UseVisualStyleBackColor = true;
+            this.ADDTEACHER.Click += new System.EventHandler(this.ADDTEACHER_Click);
             // 
             // ADDCLASS
             // 

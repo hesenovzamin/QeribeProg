@@ -156,6 +156,8 @@
             // Class
             // 
             this.Class.FormattingEnabled = true;
+            this.Class.Items.AddRange(new object[] {
+            "1"});
             this.Class.Location = new System.Drawing.Point(344, 50);
             this.Class.Name = "Class";
             this.Class.Size = new System.Drawing.Size(121, 24);
@@ -188,6 +190,7 @@
             this.button3.TabIndex = 16;
             this.button3.Text = "Add";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // Add
             // 
@@ -211,7 +214,6 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.Name);
             this.Controls.Add(this.label1);
-         
             this.Text = "Add";
             this.Load += new System.EventHandler(this.Add_Load);
             this.ResumeLayout(false);

@@ -10,7 +10,7 @@ namespace WindowsFormsApp3.Controller
 {
     class ClassList:IEnumerable
     {
-        Class[] List = new Class[0];
+       public static Class[] List = new Class[0];
         int Count = 0;
         public void Add(Class _class)
         {

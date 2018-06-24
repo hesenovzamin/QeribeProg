@@ -45,7 +45,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controller\StudentController.cs" />
     <Compile Include="Controller\ClassList.cs" />
+    <Compile Include="Controller\TeacherController.cs" />
     <Compile Include="Controller\TeacherList.cs" />
     <Compile Include="View\Add.cs">
       <SubType>Form</SubType>
@@ -101,6 +103,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Entity\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
